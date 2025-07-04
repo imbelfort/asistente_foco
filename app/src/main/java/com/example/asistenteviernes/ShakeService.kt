@@ -40,10 +40,10 @@ class ShakeService : Service(), SensorEventListener {
         super.onCreate()
 
         tuyaController = TuyaController(
-            accessId = "v7pvj85gngjns7faurg3",
-            accessSecret = "c1a53b851a2f450facbd548cde3870ec",
+            accessId = "TUIDAQUI",
+            accessSecret = "SECRETCLAVEAQUI",
             tuyaRegion = "us",
-            deviceId = "eb1b19ecf7b88c73a3pe6k"
+            deviceId = "TUIDDEVICEAQUI"
         )
 
         // Inicializar TTS
